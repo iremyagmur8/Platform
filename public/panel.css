@@ -1,0 +1,77 @@
+#topbar #logo a {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 800;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.services-category-box .inner-box .link a, .features-box .inner-box .link a{
+    color: #ed1b2f;
+}
+#topbar {
+    background: darkslategrey;
+    padding: 11px 0px;
+}
+#topbar .top-menu .p-dropdown:hover .btn.btn-light{
+    background-color: #ed1b2f !important;
+    border-color: #ed1b2f !important;
+}
+#topbar .top-menu .p-dropdown:hover a .fas.fa-user{
+    color:#fff !important;
+}
+#topbar .top-menu > li > a {
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    height: 40px;
+    margin-right: 16px;
+}
+#topbar .info li a {
+    color: #fff;
+    display: block;
+    font-size: 15px;
+}
+#topbar .top-menu > li {
+    position: relative;
+    display: inline-block;
+}
+#topbar .btn:not(.close):not(.mfp-close).btn-shadow, a.btn:not([href]):not([tabindex]).btn-shadow{
+    box-shadow: none;
+}
+#topbar .top-menu > li:not(:last-child):before {
+    position: absolute;
+    content: '';
+    background: rgba(255, 255, 255, 0.2);
+    width: 1px;
+    height: 16px;
+    top: 11px;
+    right: 5px;
+}
+#topbar .button-danger .button-danger-first {
+    padding: 4px 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+#topbar .p-dropdown {
+    float: none;
+}
+#topbar {
+    border-bottom: none;
+}
+#topbar a:not(.btn):not(.badge):hover{
+    color: #ed1b2f !important;
+}
+#mainMenu nav > ul > li:last-child a{
+    font-size: 12px;
+    color: #202428;
+    font-weight: 600;
+}
+
+button.btn.btn-success:hover,  .btn:not(.close):not(.mfp-close).btn-success:hover{
+    background-color: #fff !important;
+    border-color: #62b944 !important;
+    color: #62b944 !important;
+}

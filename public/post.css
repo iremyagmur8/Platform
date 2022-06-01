@@ -1,0 +1,63 @@
+.postImages .rounded {
+    border-radius: 2rem !important;
+    filter: drop-shadow(0 0 0.3rem grey);
+}
+
+.carousel .polo-carousel-item img {
+    width: 600px;
+}
+
+.cardBack {
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    margin-top: 50px;
+    padding: 50px 20px;
+}
+
+.pie-chart span {
+    font-weight: 400;
+}
+
+.cardBack .h4, .cardBack .p-progress-bar .progress-title, .cardBack .tabs h4 {
+    font-weight: 500;
+}
+
+.p-progress-bar, .progress-bar {
+    background-color: #fd3635 !important;
+}
+
+.counter span {
+    line-height: 0;
+    font-size: 20px;
+}
+
+.cardBack .btn:not(.close):not(.mfp-close) {
+    background-color: #fff;
+    border-color: #fd3635;
+    color: #fd3635;
+}
+
+.cardBack .tabs .nav-tabs .nav-link.active {
+    color: #fd3635;
+    background-color: transparent;
+    border-bottom: 2px solid #fd3635;
+}
+
+.cardBack .tabs .tab-content ul li {
+    margin-left: 25px;
+    color: #777777;
+}
+
+.seperator, .separator {
+    color: #777;
+    font-size:20px;
+}
+.cardBack .col-lg-2 {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+.pricing-table .plan .plan-header .plan-price {
+    font-size: 40px;
+}
+.pricing-table .plan .plan-header .plan-price sup {
+    top: -10px;
+}
